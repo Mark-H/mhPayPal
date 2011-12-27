@@ -1,0 +1,3 @@
+There are times you will want to accept donations or payments on your MODX-powered sites. In my case I wanted to offer the possibility for users to donate towards one of my open source projects. So I whipped up a snippet to help me do that.
+
+"Read about it on my site":http://www.markhamstra.com/modx-blog/2011/12/accepting-paypal-on-your-modx-site/
