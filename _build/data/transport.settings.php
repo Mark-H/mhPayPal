@@ -6,9 +6,9 @@ $s = array(
     'api_username' => '',
     'api_password' => '',
     'api_signature' => '',
-    'sandbox_username' => 'handh_1315356862_biz_api1.markhamstra.com',
-    'sandbox_password' => '1315356902',
-    'sandbox_signature' => 'AFcWxV21C7fd0v3bYYYRCpSSRl31AGBdEj9UxkUfhYJqGJpi6oNU25Wx',
+    'sandbox_username' => '',
+    'sandbox_password' => '',
+    'sandbox_signature' => '',
 );
 
 $settings = array();

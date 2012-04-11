@@ -480,8 +480,6 @@ class mhPayPal {
      * @return bool
      */
     public function email($ps = '') {
-        $this->modx->log(modX::LOG_LEVEL_ERROR,'Email hook triggered');
-
         $message = $this->getChunk($this->getProperty('emailTpl'.$ps),$this->data);
         $emailto = str_replace('[[+email]]',$this->data['email'], $this->getProperty('emailTo'.$ps, $this->modx->getOption('emailsender')));
         $emailto = explode(',',$emailto);

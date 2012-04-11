@@ -11,8 +11,6 @@ if (!$mhpp) return 'Error loading mhPayPal class.';
 
 /* Get & Set Properties */
 $sp = array( // Defaults
-    //'project' => $modx->resource->get('id'),
-
     /* Amounts */
     'currencies' => 'EUR,USD,GBP',
     'amount' => 0,
@@ -76,7 +74,6 @@ $gpc = (strtolower($mhpp->getProperty('method')) == 'get') ? $_GET : $_POST;
 if (isset($_REQUEST['token']) && isset($_REQUEST['PayerID'])) {
     $data = $mhpp->doCheckout();
     if (is_array($data)) {
-        $modx->log(modX::LOG_LEVEL_ERROR,print_r($data,true));
         $result = $mhpp->processHooks($mhpp->getProperty('postPaymentHooks'));
         if ($result === true) {
             $mhpp->showSuccessMessage($data);

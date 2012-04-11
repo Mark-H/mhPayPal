@@ -1,8 +1,7 @@
 <?php
 
 $snips = array(
-    'makeDonate' => 'Put the makeDonate snippet where you want the form to show up.',
-    'makeDonateHook' => 'The makeDonateHook snippet is used as hook for the FormIt call in the form.',
+    'mhPayPal' => 'The main snippet for the mhPayPal package. Please see the documenation at http://rtfm.modx.com/display/ADDON/mhPayPal.Snippet+Usage for instructions.',
 );
 
 $snippets = array();
@@ -26,11 +25,11 @@ foreach ($snips as $sn => $sdesc) {
         else { $type = 'textfield'; }
         $snippetProperties[] = array(
             'name' => $key,
-            'desc' => 'designeveryday.prop_desc.'.$key,
+            'desc' => 'mhPayPal.prop_desc.'.$key,
             'type' => $type,
             'options' => '',
             'value' => ($value != null) ? $value : '',
-            'lexicon' => 'designeveryday:properties'
+            'lexicon' => 'mhPayPal:properties'
         );
     }
 
