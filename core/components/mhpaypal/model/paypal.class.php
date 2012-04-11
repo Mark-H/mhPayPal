@@ -19,7 +19,7 @@
 
 	Get, Create and Update Recurring Payment Profiles available thanks to Bill Joslin (billjoslin.com)!
 
-    Modified by Mark Hamstra, markhamstra.com, for use in SubscribeMe as released under the GPL v2 or later license.
+    Modified by Mark Hamstra, markhamstra.com, for use in various packages released under the GPL v2 or later license.
 */
 
 class phpPayPal {

@@ -1,4 +1,5 @@
 <?php
+/* @var modX $modx */
 
 $s = array(
     'sandbox' => true,

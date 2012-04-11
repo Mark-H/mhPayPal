@@ -1,9 +1,5 @@
-++++++++++++++++++++++++++++++++++++
-++                                ++
-++    mhPayPal 0.0.0-dev          ++
-++         Released: 00/00/2011   ++
-++                                ++
-++++++++++++++++++++++++++++++++++++
+++  mhPayPal 1.1.0-rc1
+++  Released: 11/04/2012
++++++++++++++++++++++++++++
 
-#1 Super awesome feature.
-
+First public release (via official channels).

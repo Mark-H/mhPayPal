@@ -1,15 +1,19 @@
-+++++++++++++++++++++++++++++++++++
-++                               ++
-++   mhPayPal                   ++
-++   Developer:  Your Name       ++
-++   License:    GPL GNU v2      ++
-++                               ++
-+++++++++++++++++++++++++++++++++++
+++  mhPayPal 1.1.0-rc1
+++  Developer:  Mark Hamstra, hello@markhamstra.com
+++  License:    GNU GPL v2
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+mhPayPal is a simple to use snippet which enables you
+of receiving donations or (single product) payments.
 
-mhPayPal is a wicked addon that will do something for you, real easy!
+It is inspired by FormIt and has three different hooks
+which can be used to extend its basic functionality to
+virtually anything, by the use of snippets or the included
+hooks.
 
+Please review the documentation for instructions on how
+to set it up.
 
 Documentation: 		http://rtfm.modx.com/display/ADDON/mhPayPal
-Bugs & Features: 	https://github.com/DevName/mhPayPal/issues
-Commercial Support:	mhpaypal@developer.com
+Source Code:        https://github.com/Mark-H/mhPayPal
+Bugs & Features: 	https://github.com/Mark-H/mhPayPal/issues
