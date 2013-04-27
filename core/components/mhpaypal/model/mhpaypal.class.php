@@ -305,7 +305,7 @@ class mhPayPal {
         }
         /* @var modSnippet $snippet */
         elseif ($snippet = $this->modx->getObject('modSnippet',array('name' => $name))) {
-            $properties = $this->getProperties();
+            $properties = array();
             $properties['mhpp'] =& $this;
             $success = $snippet->process($properties);
         } else {

@@ -1,7 +1,7 @@
 <?php
 
 $snips = array(
-    'mhPayPal' => 'The main snippet for the mhPayPal package. Please see the documenation at http://rtfm.modx.com/display/ADDON/mhPayPal.Snippet+Usage for instructions.',
+    'mhPayPal' => 'The main snippet for the mhPayPal package. Please see the documentation at http://rtfm.modx.com/display/ADDON/mhPayPal.Snippet+Usage for instructions.',
 );
 
 $snippets = array();

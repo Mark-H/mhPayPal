@@ -90,6 +90,7 @@ if (isset($_REQUEST['token']) && isset($_REQUEST['PayerID'])) {
 }
 
 elseif (isset($gpc[$sp['submitVar']])) {
+    $mhpp->processHooks($mhpp->getProperty('postHooks'), $gpc);
     $errors = $mhpp->validateForm($gpc);
     if (empty($errors)) {
         $result = $mhpp->prepareCheckout();
