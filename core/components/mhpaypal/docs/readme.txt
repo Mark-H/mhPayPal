@@ -1,4 +1,4 @@
-++  mhPayPal 1.1.0-rc1
+++  mhPayPal 1.1.1-rc1
 ++  Developer:  Mark Hamstra, hello@markhamstra.com
 ++  License:    GNU GPL v2
 ++++++++++++++++++++++++++++++++++++++++++++++++++++

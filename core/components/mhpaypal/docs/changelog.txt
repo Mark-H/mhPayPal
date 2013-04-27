@@ -1,3 +1,9 @@
+++  mhPayPal 1.1.1-rc1
+++  Released: 2013-04-27
++++++++++++++++++++++++++++
+- Make postHooks functional
+- Add setProperty method for use in hooks.
+
 ++  mhPayPal 1.1.0-rc1
 ++  Released: 11/04/2012
 +++++++++++++++++++++++++++
