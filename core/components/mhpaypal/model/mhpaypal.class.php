@@ -438,6 +438,16 @@ class mhPayPal {
     }
 
     /**
+     * @param string $key
+     * @param $value
+     *
+     * @return mixed
+     */
+    public function setProperty($key, $value) {
+        $this->properties[$key] = $value;
+    }
+
+    /**
      * Adds an error.
      * @param $fld
      * @param $msg
