@@ -1,7 +1,6 @@
-++  mhPayPal 1.1.0-rc1
-++  Developer:  Mark Hamstra, hello@markhamstra.com
-++  License:    GNU GPL v2
-++++++++++++++++++++++++++++++++++++++++++++++++++++
+# mhPayPal 1.1.1-rc1
+
+Developed by Mark Hamstra, hello@markhamstra.com, released under the GPL.
 
 mhPayPal is a simple to use snippet which enables you
 of receiving donations or (single product) payments.
@@ -17,7 +16,3 @@ to set it up.
 Documentation: 		http://rtfm.modx.com/display/ADDON/mhPayPal
 Source Code:        https://github.com/Mark-H/mhPayPal
 Bugs & Features: 	https://github.com/Mark-H/mhPayPal/issues
-
-Further reading:
-
-* "First blog discussing mhPayPal in early stage of development.":http://www.markhamstra.com/modx-blog/2011/12/accepting-paypal-on-your-modx-site/
